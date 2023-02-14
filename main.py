@@ -8,7 +8,7 @@ class Main:
         """
         init function
         """
-        self._joystick = JoystickReader()
+        self._joystick = JoystickReader(vr_x=26, vr_y=27, vr_z=28)
 
     def run(self) -> None:
         """
